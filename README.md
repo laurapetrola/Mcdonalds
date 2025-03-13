@@ -99,50 +99,50 @@ The analysis is divided into several steps:
 - Run the cells in the notebook to perform the analysis and generate visualizations.
 
 ## Key Features of the Notebook <a name="key-features-of-the-notebook"></a>
--**Interactive Visualizations**:
+- **Interactive Visualizations**:
    -Bar charts showing the top 10 healthiest and unhealthiest items.
    -Scatter plots comparing calories vs. total fat.
--**Nutritional Insights**:
+- **Nutritional Insights**:
    -Displays detailed nutritional information for selected items.
    -Includes health classification and explanations for why an item is unhealthy (e.g., high sodium, low fiber).
 
 ## Dataset <a name="dataset"></a>
 The dataset used in this project contains nutritional information for McDonald's menu items. It includes columns such as:
--```Category``` (e.g., Burgers, Desserts, Drinks)
--```Item``` (e.g., Big Mac, McChicken, French Fries)
--```Calories```
--```Total Fat``
--```Sodium```
--```Carbohydrates```
--```Dietary Fiber```
--```Protein```
--```Vitamin A (% Daily Value)```
--```Vitamin C (% Daily Value)```
--```Calcium (% Daily Value)```
--```Iron (% Daily Value)```
+- ```Category``` (e.g., Burgers, Desserts, Drinks)
+- ```Item``` (e.g., Big Mac, McChicken, French Fries)
+- ```Calories```
+- ```Total Fat``
+- ```Sodium```
+- ```Carbohydrates```
+- ```Dietary Fiber```
+- ```Protein```
+- ```Vitamin A (% Daily Value)```
+- ```Vitamin C (% Daily Value)```
+- ```Calcium (% Daily Value)```
+- ```Iron (% Daily Value)```
 
 ## Health Score Calculation <a name="health-score-calculation"></a>
 The health score is calculated using a weighted sum of normalized nutritional values. The criteria and weights are:
--**Calories**: Weight = 3 (lower is better)
--**Total Fat**: Weight = 2 (lower is better)
--**Sodium**: Weight = 2 (lower is better)
--**Dietary Fiber**: Weight = 3 (higher is better)
--**Calcium (% Daily Value)**: Weight = 2 (higher is better)
--**Iron (% Daily Value)**: Weight = 2 (higher is better)
+- **Calories**: Weight = 3 (lower is better)
+- **Total Fat**: Weight = 2 (lower is better)
+- **Sodium**: Weight = 2 (lower is better)
+- **Dietary Fiber**: Weight = 3 (higher is better)
+- **Calcium (% Daily Value)**: Weight = 2 (higher is better)
+- **Iron (% Daily Value)**: Weight = 2 (higher is better)
 
 Items are classified as:
--**Healthy**: Health Score ≥ 7
--**Unhealthy**: Health Score < 7
+- **Healthy**: Health Score ≥ 7
+- **Unhealthy**: Health Score < 7
 
 ## Example Insights <a name="example-insights"></a>
--**Healthiest Item**: Side Salad (High in fiber, low in calories and fat).
--**Unhealthiest Item**: Big Mac (High in calories, fat, and sodium).
--**McChicken Analysis**: The McChicken is moderately healthy but has a high sodium content, which contributes to its lower health score.
+- **Healthiest Item**: Side Salad (High in fiber, low in calories and fat).
+- **Unhealthiest Item**: Big Mac (High in calories, fat, and sodium).
+- **McChicken Analysis**: The McChicken is moderately healthy but has a high sodium content, which contributes to its lower health score.
 
 ## Future Improvements <a name="future-improvements"></a>
--Add more nutritional criteria (e.g., sugar content, cholesterol).
--Include recommendations for healthier alternatives.
--Export the visualizations as standalone interactive HTML files.
+- Add more nutritional criteria (e.g., sugar content, cholesterol).
+- Include recommendations for healthier alternatives.
+- Export the visualizations as standalone interactive HTML files.
 
 ## Conclusion <a name="conclusion"></a>
 This project has been a great way to combine my interest in nutrition with my passion for learning Python. By analyzing McDonald's nutritional data, I gained valuable insights into the healthiness of my favorite foods and improved my data analysis and visualization skills. I hope this project inspires others to explore the nutritional value of their favorite meals!😊
