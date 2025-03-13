@@ -145,4 +145,4 @@ Items are classified as:
 - Export the visualizations as standalone interactive HTML files.
 
 ## Conclusion <a name="conclusion"></a>
-This project has been a great way to combine my interest in nutrition with my passion for learning Python. By analyzing McDonald's nutritional data, I gained valuable insights into the healthiness of my favorite foods and improved my data analysis and visualization skills. I hope this project inspires others to explore the nutritional value of their favorite meals!😊
+This project has been a great way to combine my interest in nutrition with my learning path in Python. By analyzing McDonald's nutritional data, I gained valuable insights into the healthiness of my favorite foods and improved my data analysis and visualization skills. I hope this project inspires others to explore the nutritional value of their favorite meals!😊
