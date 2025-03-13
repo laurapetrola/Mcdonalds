@@ -90,7 +90,7 @@ The analysis is divided into several steps:
    -Displays detailed nutritional information for selected items.
    -Includes health classification and explanations for why an item is unhealthy (e.g., high sodium, low fiber).
 
-### Dataset
+## Dataset
 The dataset used in this project contains nutritional information for McDonald's menu items. It includes columns such as:
 -```Category``` (e.g., Burgers, Desserts, Drinks)
 -```Item``` (e.g., Big Mac, McChicken, French Fries)
@@ -105,7 +105,7 @@ The dataset used in this project contains nutritional information for McDonald's
 -```Calcium (% Daily Value)```
 -```Iron (% Daily Value)```
 
-### Health Score Calculation
+## Health Score Calculation
 The health score is calculated using a weighted sum of normalized nutritional values. The criteria and weights are:
 -**Calories**: Weight = 3 (lower is better)
 -**Total Fat**: Weight = 2 (lower is better)
@@ -118,15 +118,15 @@ Items are classified as:
 -**Healthy**: Health Score ≥ 7
 -**Unhealthy**: Health Score < 7
 
-### Example Insights
+## Example Insights
 -**Healthiest Item**: Side Salad (High in fiber, low in calories and fat).
 -**Unhealthiest Item**: Big Mac (High in calories, fat, and sodium).
 -**McChicken Analysis**: The McChicken is moderately healthy but has a high sodium content, which contributes to its lower health score.
 
-### Future Improvements
+## Future Improvements
 -Add more nutritional criteria (e.g., sugar content, cholesterol).
 -Include recommendations for healthier alternatives.
 -Export the visualizations as standalone interactive HTML files.
 
-### Conclusion
+## Conclusion
 This project has been a great way to combine my interest in nutrition with my passion for learning Python. By analyzing McDonald's nutritional data, I gained valuable insights into the healthiness of my favorite foods and improved my data analysis and visualization skills. I hope this project inspires others to explore the nutritional value of their favorite meals!😊
